@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace MovieSearcher.View
 {
-    public partial class FullInfoMovieView : Form
+    public partial class FullInfoMovieMovie2 : Form
     {
         Movie movie;
-        public FullInfoMovieView(Movie movie)
+        public FullInfoMovieMovie2(Movie movie)
         {
             InitializeComponent();
             this.movie = movie;
@@ -24,7 +24,7 @@ namespace MovieSearcher.View
 
         void InitializeInfoFiels()
         {
-            TitleName.Text = movie.Title;
+            TitleLabel.Text = movie.Title;
             YearValueLabel.Text = movie.Year;
             RatedValueLabel.Text = movie.Rated;
             ReleasedValueLabel.Text = movie.Released;
@@ -36,12 +36,13 @@ namespace MovieSearcher.View
             PlotValueLabel.Text = movie.Plot;
             LanguageValueLabel.Text = movie.Language;
             CountryValueLabel.Text = movie.Country;
-            if(movie.Poster != "N/A")
+            if (movie.Poster != "N/A")
             {
                 try
                 {
                     MoviePoster.Load(movie.Poster);
-                }catch(WebException exception) { }
+                }
+                catch (WebException exception) { }
             }
         }
     }

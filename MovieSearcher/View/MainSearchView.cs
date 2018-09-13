@@ -114,7 +114,7 @@ namespace MovieSearcher.View
             {
                 if(selectedMovie != null && resultsOfSearchOfFullMovieInfo[selectedMovie].Result == true)
                 {
-                    var fullInfoMovieView = new FullInfoMovieView(selectedMovie);
+                    var fullInfoMovieView = new FullInfoMovieMovie2(selectedMovie);
                     fullInfoMovieView.ShowDialog();
                 }
             }
