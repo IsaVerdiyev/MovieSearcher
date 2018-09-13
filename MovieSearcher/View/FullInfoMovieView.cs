@@ -44,7 +44,5 @@ namespace MovieSearcher.View
                 }catch(WebException exception) { }
             }
         }
-
-        
     }
 }

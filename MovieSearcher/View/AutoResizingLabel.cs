@@ -12,56 +12,41 @@ namespace MovieSearcher
 {
     public partial class AutoResizingLabel : Label
     {
-        #region  Public Constructors  
-
+        private bool mGrowing;
         public AutoResizingLabel()
         {
             this.AutoSize = false;
         }
-
-        #endregion  Public Constructors  
-
-        #region  Protected Overridden Methods  
-
-        protected override void OnResize(EventArgs e)
+        private void resizeLabel()
         {
-            base.OnResize(e);
-
-            this.FitToContents();
+            if (mGrowing) return;
+            try
+            {
+                mGrowing = true;
+                Size sz = new Size(this.Width, Int32.MaxValue);
+                sz = TextRenderer.MeasureText(this.Text, this.Font, sz, TextFormatFlags.WordBreak);
+                this.Height = sz.Height;
+            }
+            finally
+            {
+                mGrowing = false;
+            }
         }
-
         protected override void OnTextChanged(EventArgs e)
         {
             base.OnTextChanged(e);
-
-            this.FitToContents();
+            resizeLabel();
         }
-
-        #endregion  Protected Overridden Methods  
-
-        #region  Protected Virtual Methods  
-
-        protected virtual void FitToContents()
+        protected override void OnFontChanged(EventArgs e)
         {
-            Size size;
-
-            size = this.GetPreferredSize(new Size(this.Width, 0));
-
-            this.Height = size.Height;
+            base.OnFontChanged(e);
+            resizeLabel();
         }
-
-        #endregion  Protected Virtual Methods  
-
-        #region  Public Properties  
-
-        [DefaultValue(false), Browsable(false), EditorBrowsable(EditorBrowsableState.Never), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-        public override bool AutoSize
+        protected override void OnSizeChanged(EventArgs e)
         {
-            get { return base.AutoSize; }
-            set { base.AutoSize = value; }
+            base.OnSizeChanged(e);
+            resizeLabel();
         }
-
-        #endregion  Public Properties  
     }
 }
 
