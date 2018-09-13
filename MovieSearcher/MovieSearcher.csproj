@@ -59,6 +59,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IMovieSearcher.cs" />
     <Compile Include="Services\MovieSearcherService.cs" />
+    <Compile Include="View\AutoResizingLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="View\FullInfoMovieView.cs">
       <SubType>Form</SubType>
     </Compile>
