@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace MovieSearcher.View
 {
-    public partial class FullInfoMovieMovie2 : Form
+    public partial class FullInfoMovieView : Form
     {
         Movie movie;
-        public FullInfoMovieMovie2(Movie movie)
+        public FullInfoMovieView(Movie movie)
         {
             InitializeComponent();
             this.movie = movie;

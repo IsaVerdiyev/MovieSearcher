@@ -1,6 +1,6 @@
 ﻿namespace MovieSearcher.View
 {
-    partial class FullInfoMovieMovie2
+    partial class FullInfoMovieView
     {
         /// <summary>
         /// Required designer variable.
@@ -73,7 +73,7 @@
             this.MainTableLayoutPanel.Name = "MainTableLayoutPanel";
             this.MainTableLayoutPanel.RowCount = 1;
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.MainTableLayoutPanel.Size = new System.Drawing.Size(684, 461);
+            this.MainTableLayoutPanel.Size = new System.Drawing.Size(784, 461);
             this.MainTableLayoutPanel.TabIndex = 1;
             // 
             // MoviePoster
@@ -93,7 +93,7 @@
             this.ScrollPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ScrollPanel.Location = new System.Drawing.Point(403, 3);
             this.ScrollPanel.Name = "ScrollPanel";
-            this.ScrollPanel.Size = new System.Drawing.Size(278, 455);
+            this.ScrollPanel.Size = new System.Drawing.Size(378, 455);
             this.ScrollPanel.TabIndex = 2;
             // 
             // InfoLayoutPanel
@@ -128,7 +128,7 @@
             this.InfoLayoutPanel.Controls.Add(this.YearKeyLabel, 0, 1);
             this.InfoLayoutPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.InfoLayoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.InfoLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.InfoLayoutPanel.Margin = new System.Windows.Forms.Padding(0, 5, 10, 15);
             this.InfoLayoutPanel.Name = "InfoLayoutPanel";
             this.InfoLayoutPanel.RowCount = 12;
             this.InfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -143,7 +143,7 @@
             this.InfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.InfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.InfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.InfoLayoutPanel.Size = new System.Drawing.Size(278, 244);
+            this.InfoLayoutPanel.Size = new System.Drawing.Size(378, 364);
             this.InfoLayoutPanel.TabIndex = 0;
             // 
             // CountryValueLabel
@@ -151,10 +151,10 @@
             this.CountryValueLabel.AutoSize = true;
             this.CountryValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CountryValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CountryValueLabel.Location = new System.Drawing.Point(85, 224);
-            this.CountryValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.CountryValueLabel.Location = new System.Drawing.Point(85, 339);
+            this.CountryValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.CountryValueLabel.Name = "CountryValueLabel";
-            this.CountryValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.CountryValueLabel.Size = new System.Drawing.Size(293, 0);
             this.CountryValueLabel.TabIndex = 22;
             // 
             // LanguageValueLabel
@@ -162,10 +162,10 @@
             this.LanguageValueLabel.AutoSize = true;
             this.LanguageValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LanguageValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LanguageValueLabel.Location = new System.Drawing.Point(85, 204);
-            this.LanguageValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.LanguageValueLabel.Location = new System.Drawing.Point(85, 309);
+            this.LanguageValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.LanguageValueLabel.Name = "LanguageValueLabel";
-            this.LanguageValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.LanguageValueLabel.Size = new System.Drawing.Size(293, 0);
             this.LanguageValueLabel.TabIndex = 21;
             // 
             // PlotValueLabel
@@ -173,10 +173,10 @@
             this.PlotValueLabel.AutoSize = true;
             this.PlotValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlotValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlotValueLabel.Location = new System.Drawing.Point(85, 184);
-            this.PlotValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.PlotValueLabel.Location = new System.Drawing.Point(85, 279);
+            this.PlotValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.PlotValueLabel.Name = "PlotValueLabel";
-            this.PlotValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.PlotValueLabel.Size = new System.Drawing.Size(293, 0);
             this.PlotValueLabel.TabIndex = 20;
             // 
             // ActorsValueLabel
@@ -184,10 +184,10 @@
             this.ActorsValueLabel.AutoSize = true;
             this.ActorsValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ActorsValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ActorsValueLabel.Location = new System.Drawing.Point(85, 164);
-            this.ActorsValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.ActorsValueLabel.Location = new System.Drawing.Point(85, 249);
+            this.ActorsValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.ActorsValueLabel.Name = "ActorsValueLabel";
-            this.ActorsValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.ActorsValueLabel.Size = new System.Drawing.Size(293, 0);
             this.ActorsValueLabel.TabIndex = 19;
             // 
             // WriterValueLabel
@@ -195,10 +195,10 @@
             this.WriterValueLabel.AutoSize = true;
             this.WriterValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.WriterValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WriterValueLabel.Location = new System.Drawing.Point(85, 144);
-            this.WriterValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.WriterValueLabel.Location = new System.Drawing.Point(85, 219);
+            this.WriterValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.WriterValueLabel.Name = "WriterValueLabel";
-            this.WriterValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.WriterValueLabel.Size = new System.Drawing.Size(293, 0);
             this.WriterValueLabel.TabIndex = 18;
             // 
             // DirectorValueLabel
@@ -206,10 +206,10 @@
             this.DirectorValueLabel.AutoSize = true;
             this.DirectorValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DirectorValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DirectorValueLabel.Location = new System.Drawing.Point(85, 124);
-            this.DirectorValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.DirectorValueLabel.Location = new System.Drawing.Point(85, 189);
+            this.DirectorValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.DirectorValueLabel.Name = "DirectorValueLabel";
-            this.DirectorValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.DirectorValueLabel.Size = new System.Drawing.Size(293, 0);
             this.DirectorValueLabel.TabIndex = 17;
             // 
             // GenreValueLabel
@@ -217,10 +217,10 @@
             this.GenreValueLabel.AutoSize = true;
             this.GenreValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GenreValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenreValueLabel.Location = new System.Drawing.Point(85, 104);
-            this.GenreValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.GenreValueLabel.Location = new System.Drawing.Point(85, 159);
+            this.GenreValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.GenreValueLabel.Name = "GenreValueLabel";
-            this.GenreValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.GenreValueLabel.Size = new System.Drawing.Size(293, 0);
             this.GenreValueLabel.TabIndex = 16;
             // 
             // RuntimeValueLabel
@@ -228,10 +228,10 @@
             this.RuntimeValueLabel.AutoSize = true;
             this.RuntimeValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RuntimeValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RuntimeValueLabel.Location = new System.Drawing.Point(85, 84);
-            this.RuntimeValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.RuntimeValueLabel.Location = new System.Drawing.Point(85, 129);
+            this.RuntimeValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.RuntimeValueLabel.Name = "RuntimeValueLabel";
-            this.RuntimeValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.RuntimeValueLabel.Size = new System.Drawing.Size(293, 0);
             this.RuntimeValueLabel.TabIndex = 15;
             // 
             // ReleasedValueLabel
@@ -239,10 +239,10 @@
             this.ReleasedValueLabel.AutoSize = true;
             this.ReleasedValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ReleasedValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReleasedValueLabel.Location = new System.Drawing.Point(85, 64);
-            this.ReleasedValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.ReleasedValueLabel.Location = new System.Drawing.Point(85, 99);
+            this.ReleasedValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.ReleasedValueLabel.Name = "ReleasedValueLabel";
-            this.ReleasedValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.ReleasedValueLabel.Size = new System.Drawing.Size(293, 0);
             this.ReleasedValueLabel.TabIndex = 14;
             // 
             // RatedValueLabel
@@ -250,10 +250,10 @@
             this.RatedValueLabel.AutoSize = true;
             this.RatedValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RatedValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RatedValueLabel.Location = new System.Drawing.Point(85, 44);
-            this.RatedValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.RatedValueLabel.Location = new System.Drawing.Point(85, 69);
+            this.RatedValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.RatedValueLabel.Name = "RatedValueLabel";
-            this.RatedValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.RatedValueLabel.Size = new System.Drawing.Size(293, 0);
             this.RatedValueLabel.TabIndex = 13;
             // 
             // YearValueLabel
@@ -261,10 +261,10 @@
             this.YearValueLabel.AutoSize = true;
             this.YearValueLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.YearValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.YearValueLabel.Location = new System.Drawing.Point(85, 24);
-            this.YearValueLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.YearValueLabel.Location = new System.Drawing.Point(85, 39);
+            this.YearValueLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.YearValueLabel.Name = "YearValueLabel";
-            this.YearValueLabel.Size = new System.Drawing.Size(193, 0);
+            this.YearValueLabel.Size = new System.Drawing.Size(293, 0);
             this.YearValueLabel.TabIndex = 12;
             // 
             // CountryKeyLabel
@@ -272,8 +272,8 @@
             this.CountryKeyLabel.AutoSize = true;
             this.CountryKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CountryKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CountryKeyLabel.Location = new System.Drawing.Point(0, 224);
-            this.CountryKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.CountryKeyLabel.Location = new System.Drawing.Point(0, 339);
+            this.CountryKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.CountryKeyLabel.Name = "CountryKeyLabel";
             this.CountryKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.CountryKeyLabel.TabIndex = 11;
@@ -285,8 +285,8 @@
             this.LanguageKeyLabel.AutoSize = true;
             this.LanguageKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LanguageKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LanguageKeyLabel.Location = new System.Drawing.Point(0, 204);
-            this.LanguageKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.LanguageKeyLabel.Location = new System.Drawing.Point(0, 309);
+            this.LanguageKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.LanguageKeyLabel.Name = "LanguageKeyLabel";
             this.LanguageKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.LanguageKeyLabel.TabIndex = 10;
@@ -298,8 +298,8 @@
             this.PlotKeyLabel.AutoSize = true;
             this.PlotKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlotKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlotKeyLabel.Location = new System.Drawing.Point(0, 184);
-            this.PlotKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.PlotKeyLabel.Location = new System.Drawing.Point(0, 279);
+            this.PlotKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.PlotKeyLabel.Name = "PlotKeyLabel";
             this.PlotKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.PlotKeyLabel.TabIndex = 9;
@@ -311,8 +311,8 @@
             this.ActorsKeyLabel.AutoSize = true;
             this.ActorsKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ActorsKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ActorsKeyLabel.Location = new System.Drawing.Point(0, 164);
-            this.ActorsKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.ActorsKeyLabel.Location = new System.Drawing.Point(0, 249);
+            this.ActorsKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.ActorsKeyLabel.Name = "ActorsKeyLabel";
             this.ActorsKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.ActorsKeyLabel.TabIndex = 8;
@@ -324,8 +324,8 @@
             this.WriterKeyLabel.AutoSize = true;
             this.WriterKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.WriterKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WriterKeyLabel.Location = new System.Drawing.Point(0, 144);
-            this.WriterKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.WriterKeyLabel.Location = new System.Drawing.Point(0, 219);
+            this.WriterKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.WriterKeyLabel.Name = "WriterKeyLabel";
             this.WriterKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.WriterKeyLabel.TabIndex = 7;
@@ -337,8 +337,8 @@
             this.DirectorKeyLabel.AutoSize = true;
             this.DirectorKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DirectorKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DirectorKeyLabel.Location = new System.Drawing.Point(0, 124);
-            this.DirectorKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.DirectorKeyLabel.Location = new System.Drawing.Point(0, 189);
+            this.DirectorKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.DirectorKeyLabel.Name = "DirectorKeyLabel";
             this.DirectorKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.DirectorKeyLabel.TabIndex = 6;
@@ -350,8 +350,8 @@
             this.GenreKeyLabel.AutoSize = true;
             this.GenreKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GenreKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenreKeyLabel.Location = new System.Drawing.Point(0, 104);
-            this.GenreKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.GenreKeyLabel.Location = new System.Drawing.Point(0, 159);
+            this.GenreKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.GenreKeyLabel.Name = "GenreKeyLabel";
             this.GenreKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.GenreKeyLabel.TabIndex = 5;
@@ -363,8 +363,8 @@
             this.RuntimeKeyLabel.AutoSize = true;
             this.RuntimeKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RuntimeKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RuntimeKeyLabel.Location = new System.Drawing.Point(0, 84);
-            this.RuntimeKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.RuntimeKeyLabel.Location = new System.Drawing.Point(0, 129);
+            this.RuntimeKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.RuntimeKeyLabel.Name = "RuntimeKeyLabel";
             this.RuntimeKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.RuntimeKeyLabel.TabIndex = 4;
@@ -376,8 +376,8 @@
             this.ReleasedKeyLabel.AutoSize = true;
             this.ReleasedKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ReleasedKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReleasedKeyLabel.Location = new System.Drawing.Point(0, 64);
-            this.ReleasedKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.ReleasedKeyLabel.Location = new System.Drawing.Point(0, 99);
+            this.ReleasedKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.ReleasedKeyLabel.Name = "ReleasedKeyLabel";
             this.ReleasedKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.ReleasedKeyLabel.TabIndex = 3;
@@ -389,8 +389,8 @@
             this.RatedKeyLabel.AutoSize = true;
             this.RatedKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RatedKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RatedKeyLabel.Location = new System.Drawing.Point(0, 44);
-            this.RatedKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.RatedKeyLabel.Location = new System.Drawing.Point(0, 69);
+            this.RatedKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.RatedKeyLabel.Name = "RatedKeyLabel";
             this.RatedKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.RatedKeyLabel.TabIndex = 2;
@@ -402,8 +402,8 @@
             this.TitleLabel.AutoSize = true;
             this.InfoLayoutPanel.SetColumnSpan(this.TitleLabel, 2);
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleLabel.Location = new System.Drawing.Point(0, 0);
-            this.TitleLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.TitleLabel.Location = new System.Drawing.Point(0, 5);
+            this.TitleLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(0, 0);
             this.TitleLabel.TabIndex = 0;
@@ -413,22 +413,22 @@
             this.YearKeyLabel.AutoSize = true;
             this.YearKeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.YearKeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.YearKeyLabel.Location = new System.Drawing.Point(0, 24);
-            this.YearKeyLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.YearKeyLabel.Location = new System.Drawing.Point(0, 39);
+            this.YearKeyLabel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.YearKeyLabel.Name = "YearKeyLabel";
             this.YearKeyLabel.Size = new System.Drawing.Size(85, 20);
             this.YearKeyLabel.TabIndex = 1;
             this.YearKeyLabel.Text = "Year:";
             this.YearKeyLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // FullInfoMovieMovie2
+            // FullInfoMovieView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 461);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.MainTableLayoutPanel);
-            this.MinimumSize = new System.Drawing.Size(700, 500);
-            this.Name = "FullInfoMovieMovie2";
+            this.MinimumSize = new System.Drawing.Size(800, 500);
+            this.Name = "FullInfoMovieView";
             this.Text = "FullInfoMovieMovie2";
             this.MainTableLayoutPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MoviePoster)).EndInit();
